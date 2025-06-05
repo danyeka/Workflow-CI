@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/dde6b13e11f544d1b269227c987d9be2/artifacts
+end_time: 1749111393156
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dde6b13e11f544d1b269227c987d9be2
+run_name: salty-koi-945
+run_uuid: dde6b13e11f544d1b269227c987d9be2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749111380615
+status: 4
+tags: []
+user_id: K E I
