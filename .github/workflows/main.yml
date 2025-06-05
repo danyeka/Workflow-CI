@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  CSV_URL: "Workflow-CI/MLproject/cleaned_training.csv"
+  CSV_URL: "MLproject/cleaned_training.csv"
   TARGET_VAR: "SeriousDlqin2yrs"
 
 jobs:
@@ -31,6 +31,11 @@ jobs:
         python --version
         pip --version
 
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libarrow-dev libparquet-dev
+        
     - name: Install dependencies
       run: |
         pip install -r ./MLProject/requirements.txt
