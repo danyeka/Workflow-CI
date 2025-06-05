@@ -36,7 +36,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y libarrow-dev libparquet-dev
         
-    - name: Install dependencies
+    - name: Install dependencies mlproject
       run: |
         pip install -r ./MLProject/requirements.txt
 
@@ -48,7 +48,7 @@ jobs:
       run: |
         echo "RUN_ID=$(mlflow experiments list --view-type ACTIVE | tail -n 1 | awk '{print $1}')" >> $GITHUB_ENV
 
-    - name: Install Python dependencies
+    - name: Install modeldir dependencies
       run: |
         echo "Install dependencies dari model jika perlu"
         # Contoh jika model tersimpan di model_dir/model
