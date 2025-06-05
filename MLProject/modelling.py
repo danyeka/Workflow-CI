@@ -14,7 +14,7 @@ if __name__ == "__main__":
     
     # Set MLflow tracking URI for Docker compatibility
     # Use environment variable if available, otherwise use local file system
-    tracking_uri = os.getenv('MLFLOW_TRACKING_URI', 'file:./mlruns')
+    tracking_uri = os.getenv('MLFLOW_TRACKING_URI', 'file:///tmp/mlruns')
     mlflow.set_tracking_uri(tracking_uri)
 
     # Read the csv file
