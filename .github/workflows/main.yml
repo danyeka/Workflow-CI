@@ -30,11 +30,6 @@ jobs:
         echo $CSV_URL
         python --version
         pip --version
-
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libarrow-dev libparquet-dev
         
     - name: Install dependencies mlproject
       run: |
