@@ -1,0 +1,39 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.0
+mlflow_version: 2.19.0
+model_size_bytes: 61544
+model_uuid: 0c95889e3149477bbedddfa32c497142
+run_id: b5f18c84058646fd91908e0f0ea9d1a9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "gender", "required": true}, {"type": "long",
+    "name": "age", "required": true}, {"type": "long", "name": "smoking", "required":
+    true}, {"type": "long", "name": "yellow_fingers", "required": true}, {"type":
+    "long", "name": "anxiety", "required": true}, {"type": "long", "name": "peer_pressure",
+    "required": true}, {"type": "long", "name": "chronic_disease", "required": true},
+    {"type": "long", "name": "fatigue", "required": true}, {"type": "long", "name":
+    "allergy", "required": true}, {"type": "long", "name": "wheezing", "required":
+    true}, {"type": "long", "name": "alcohol_consuming", "required": true}, {"type":
+    "long", "name": "coughing", "required": true}, {"type": "long", "name": "shortness_of_breath",
+    "required": true}, {"type": "long", "name": "swallowing_difficulty", "required":
+    true}, {"type": "long", "name": "chest_pain", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2025-05-29 01:47:30.669483'
