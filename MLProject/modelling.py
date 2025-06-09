@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 import random
 import numpy as np
 from datetime import datetime
-from dagshub import dagshub_logger
-import dagshub
+# from dagshub import dagshub_logger
+# import dagshub
 
 # Create a new MLflow Experiment
 # mlflow.set_experiment("Lung Cancer Prediction")
