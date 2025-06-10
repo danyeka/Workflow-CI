@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/immab/Documents/workflow-cek/MLProject/mlruns/865390165982492174/9ace0e843940413d9313b9b7bff82b73/artifacts
+end_time: 1749455997210
+entry_point_name: ''
+experiment_id: '865390165982492174'
+lifecycle_stage: active
+run_id: 9ace0e843940413d9313b9b7bff82b73
+run_name: KNN_Modelling_2025-06-09_14-59-43
+run_uuid: 9ace0e843940413d9313b9b7bff82b73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749455984038
+status: 3
+tags: []
+user_id: K E I
